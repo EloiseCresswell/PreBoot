@@ -1,0 +1,23 @@
+.green_icons {
+  height: 24px;
+  width: auto;
+}
+#green_section {
+  display: flex;
+  justify-content: center;
+}
+#green_but {
+  border-radius: 50px;
+  display: flex;
+  width: 300px;
+  min-width: 70px;
+  background-color: white;
+}
+#filter_slider_img {
+  border-radius: 50%;
+  border: 1px solid;
+}
+#middle_green {
+  justify-content: flex-start;
+  display: flex;
+}
