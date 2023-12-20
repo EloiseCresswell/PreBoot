@@ -1,3 +1,7 @@
+body {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
+}
 .green_icons {
   height: 24px;
   width: auto;
@@ -17,7 +21,21 @@
   border-radius: 50%;
   border: 1px solid;
 }
-#middle_green {
-  justify-content: flex-start;
+#blue_writing {
   display: flex;
+  justify-content: center;
+  width: 350px;
+  margin: 10px 0px;
+}
+.logo {
+  width: auto;
+  height: 30px;
+  margin: auto 30%;
+}
+.logo_writing {
+  margin: 0 10px;
+}
+.blue_logo_writing {
+  font-size: 10px;
+  color: grey;
 }
