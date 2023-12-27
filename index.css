@@ -28,14 +28,42 @@ body {
   margin: 10px 0px;
 }
 .logo {
-  width: auto;
+  width: 30px;
   height: 30px;
   margin: auto 30%;
 }
 .logo_writing {
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .blue_logo_writing {
   font-size: 10px;
   color: grey;
+}
+#purple_section {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#guest_fav {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 5px 7px;
+}
+.purple_image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+#purple_heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
