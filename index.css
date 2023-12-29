@@ -93,3 +93,37 @@ body {
   background-color: black;
   margin-top: 10px;
 }
+#popular {
+  display: flex;
+  list-style-type: none;
+  overflow: scroll;
+  max-width: 300px;
+}
+.pop_list {
+  padding-right: 10px;
+}
+.country {
+  color: grey;
+}
+#places {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+.place_table {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 5px auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+.blue_font {
+  font-size: 0.9rem;
+}
