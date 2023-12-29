@@ -79,3 +79,17 @@ body {
 .gray_description {
   color: #717171;
 }
+#orange_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+#show_button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+}
