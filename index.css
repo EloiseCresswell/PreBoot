@@ -67,3 +67,15 @@ body {
   top: 10px;
   right: 10px;
 }
+.purple_below_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.rating {
+  display: flex;
+  gap: 10px;
+}
+.gray_description {
+  color: #717171;
+}
