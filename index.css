@@ -127,3 +127,23 @@ h2 {
 .blue_font {
   font-size: 0.9rem;
 }
+#blue_section {
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.footer_links {
+  list-style-type: none;
+  margin-left: 0px;
+  font-size: 0.875rem;
+  color: #222222;
+  padding-left: 24px;
+}
+ul {
+  padding: 0px;
+}
+h3 {
+  font-size: 13px;
+  color: #222222;
+  padding-left: 24px;
+  padding-top: 14px;
+}
