@@ -147,3 +147,16 @@ h3 {
   padding-left: 24px;
   padding-top: 14px;
 }
+#green_section2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 560px;
+}
+.bottom_green {
+  font-size: 0.675rem;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
