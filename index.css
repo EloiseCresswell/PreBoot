@@ -42,13 +42,13 @@ body {
   font-size: 10px;
   color: grey;
 }
-#purple_section {
+.purple_section {
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-#guest_fav {
+.guest_fav {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -62,10 +62,13 @@ body {
   height: auto;
   border-radius: 10px;
 }
-#purple_heart {
+.purple_heart {
   position: absolute;
   top: 10px;
   right: 10px;
+}
+.purple_below_section {
+  padding-bottom: 30px;
 }
 .purple_below_top {
   display: flex;
