@@ -9,6 +9,7 @@ body {
 #green_section {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 #green_but {
   border-radius: 50px;
@@ -16,10 +17,43 @@ body {
   width: 300px;
   min-width: 70px;
   background-color: white;
+  border-bottom-color: rbg(34, 34, 34);
+  border-width: 0px;
+  box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+#magnify_search {
+  padding: 10px;
+}
+#anywhere_search {
+  font-size: 0.875rem;
+  font-family: Circular, -apple-system, "system-ui", Roboto;
+  color: rgb(34, 34, 34);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+#week_guest {
+  color: rgb(113, 113, 113);
+  font-family: Circular, -apple-system, "system-ui", Roboto;
+  font-size: 12px;
+  font-weight: 400;
+}
+#weeks {
+  padding: 4px;
 }
 #filter_slider_img {
   border-radius: 50%;
   border: 1px solid;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+  border-color: rgba(0, 0, 0, 0.2);
 }
 #blue_writing {
   display: flex;
